@@ -1,0 +1,30 @@
+/** Cabeçalho **/
+
+.cabecalhoPrincipal .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav{
+    display: flex;
+}
+
+/** Rodapé **/
+
+.rodapePrincipal-patrocinadores .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+    width: 25%;
+}
