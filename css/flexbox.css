@@ -12,6 +12,16 @@
 
 /** Rodapé **/
 
+.rodapePrincipal-navMap .rodapePrincipal-navMap-list{
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-flow: column wrap; /* O flex-flow recebe as propriedades flex-direction:; e flex-wrap:;*/
+    height: 260px;
+}
+
 .rodapePrincipal-patrocinadores .container{
     align-items: center;
     display: flex;
