@@ -38,3 +38,12 @@
     display: flex;
     width: 25%;
 }
+
+.conteudoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link{
+    width: 23%;
+}
