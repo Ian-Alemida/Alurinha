@@ -1,3 +1,6 @@
+@import url(flexbox.css);
+@import url(flexbox-mobile.css);
+
 body {
 	background-color: #F2F5F7;
 	font-family: 'Open Sans',Arial,sans-serif;
