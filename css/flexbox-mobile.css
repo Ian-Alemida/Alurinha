@@ -1,0 +1,36 @@
+@media screen and (max-width: 450px){
+    /** Header **/
+    .cabecalhoPrincipal .container, .cabecalhoPrincipal-nav{
+        align-items: initial;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /** Nossos cursos **/
+    .conteudoPrincipal-cursos{
+        flex-direction: column;
+    }
+
+    .conteudoPrincipal-cursos-link{
+        width: 100%;
+    }
+
+    /** Rodapé **/
+    .rodapePrincipal-navMap-list{
+        height: auto;
+    }
+    
+    .rodapePrincipal-patrocinadores .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodapePrincipal-patrocinadores-list{
+        align-items: center;
+        width: 100%;
+    }
+    .rodapePrincipal-contatoForm, .rodapePrincipal-contatoForm-fieldset{
+        width: 100%;
+        justify-content: center;
+    }
+}
