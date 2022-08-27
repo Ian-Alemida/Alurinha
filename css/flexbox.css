@@ -10,6 +10,25 @@
     display: flex;
 }
 
+/** Videos Sobre **/
+
+.videoSobre .container{
+    display: flex;
+}
+.videoSobre-video{
+    flex-grow: 1;
+}
+
+.videoSobre-sobre{
+    display: flex;
+    flex-grow: 3;
+    flex-direction: column;
+    text-align: center;
+}
+.videoSobre-sobre-list{
+    flex-grow: 1;
+}
+
 /** Rodapé **/
 
 .rodapePrincipal-navMap .rodapePrincipal-navMap-list{
