@@ -1,11 +1,13 @@
-@media screen and (max-width: 450px){
+@media screen and (max-width: 810px){
     /** Header **/
     .cabecalhoPrincipal .container, .cabecalhoPrincipal-nav{
         align-items: initial;
         flex-direction: column;
         text-align: center;
     }
-
+    .cabecalhoPrincipal-nav-link-app{
+        order: -1;
+    }
     /** Nossos cursos **/
     .conteudoPrincipal-cursos{
         flex-direction: column;
@@ -13,6 +15,14 @@
 
     .conteudoPrincipal-cursos-link{
         width: 100%;
+    }
+
+    /** Videos Sobre **/
+    .videoSobre .container{
+        flex-direction: column;
+    }
+    .videoSobre-video{
+        margin: 0 auto;
     }
 
     /** Rodapé **/
